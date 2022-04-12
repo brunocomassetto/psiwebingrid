@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.container-fluid:nth-of-type(1){
+    background-color: #cb997e;
+}
+
+#pageone {
+    min-height: 680px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("pics/daniel-gonzalez-KeiUIl9Lzo4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    color: white; 
+}
+/* .cover-container {
+  min-height: 100vh;
+} */
+
+h1 {
+    margin-top: 4.5rem;
+    font-size:2rem;
+    border-bottom: #cb997e solid 10px;
+    border-radius: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    }
+
+#pp {
+    /* padding-top: 3rem; */
+    
+    padding: none;
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+p{ 
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+
+#curriculo {
+    min-height: 650px;
+    background-color: white;
+    color: #7d5e4d;
+}
+
+#curriculo h2:nth-of-type(1){
+    margin-top: 50px;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: #1b4332 5px solid;
+    border-radius: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#curriculo p {
+    font-weight: 500;
+    text-align: center;
+}
+
+.anos {   
+    font-size: 2rem;
+    font-weight: 800;
+    border-bottom: #1b4332 5px solid;
+    }
+
+.exp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: flex-end;
+}
+
+.exp p{
+    font-size: 1.05rem;
+}
+.experiencia{
+    /* margin-top: 200px; */
+    font-size: 1rem;
+    text-align: center;
+    line-height: 0.1em
+    /* margin-bottom: 20px; */
+    }
+
+#comofunciona {
+    min-height: 650px;
+    background-color: #7d5e4d;
+    color:white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("pics/thought-catalog-505eectW54k-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+#comofunciona h3 {
+    padding-top: 50px;
+}
+
+#comofunciona p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    border:none
+}
+
+#wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /* margin-left: 5%;
+    margin-right: 30%; */
+
+    }
+
+
+#box1 { 
+    
+    padding-top: 10px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin:none;
+    padding-right: 10px;
+        }
+
+#box2 { 
+    border-top:#cb997e 5px solid;
+
+    padding-top: 10px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+   padding-left: 10px;
+   }
+
+#box3 { 
+    border-top:#cb997e 5px solid;
+    padding-top: 10px;
+grid-column-start: 1;
+grid-row-start: 3;
+padding-right: 10px;
+
+    }
+
+#box4 { 
+    
+    padding-top: 10px;
+    grid-column-start: 2;
+    grid-row-start: 4; 
+    padding-left: 10px;                  
+    }
+
+#box5 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;  
+    border-right:#cb997e 5px solid;    
+}
+
+#tickone{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    background-color: #cb997e;
+    width: 20px;
+    height: 5px;
+    justify-self: flex-end;
+}
+
+#ticktwo{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: #cb997e;
+    width: 15px;
+    height: 5px;
+    }
+
+#tickthree {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    background-color: #cb997e;
+    width: 20px;
+    height: 5px;
+    justify-self: flex-end;
+}
+
+#tickfour {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: #cb997e;
+    width: 15px;
+    height: 5px;
+    align-self: flex-end;
+    }
+
+#whatstwo {
+    margin-top: 20px;
+}
+
+#otherinfo {
+    min-height: 600px;
+    background-color: white;
+    color: #7d5e4d;
+}
+
+#otherinfo h3:nth-of-type(1){
+    margin-top: 50px;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: #1b4332 5px solid;
+    border-radius: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#otherinfo { 
+    background-color: white;
+}
+
+#otherinfo p {
+    font-weight: 500;
+    text-align: center;
+}
+
+#otherinfo p:nth-of-type(1){
+    margin-top: 50px;
+    
+}
+
+#otherinfo spam {
+    color: #1b4332;
+}
+
+#foot {
+    background-color: #cb997e;
+    height: 40px;
+    width: 100%;
+}
+#foot p {
+
+    font-size:16px;
+}
+
+@media (min-width: 960px) {
+
+    #pageone {
+        min-height: 600px;
+    }
+
+       #curriculo {
+        min-height: 550px;
+        background-color: white;
+        color: #7d5e4d;
+    }
+
+    .exp {
+        margin-top: 30%;
+    }
+    h1 { 
+        font-size: 2rem;
+        border-right: #cb997e solid 5px;
+        border-bottom: none;
+        padding: 50px 0 50px 0;
+        margin-top: 7rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #pp {
+        padding: 50px 0 0px 0;
+        margin-top: 7rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    #wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+        }
+
+    #comofunciona {
+        min-height: 550px;
+    }
+}
