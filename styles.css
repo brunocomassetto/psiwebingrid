@@ -321,4 +321,11 @@ padding-right: 10px;
     #comofunciona {
         min-height: 550px;
     }
+
+    #otherinfo {
+        min-height: 400px;
+        background-color: white;
+        color: #7d5e4d;
+        margin-bottom: 50px
+    }
 }
